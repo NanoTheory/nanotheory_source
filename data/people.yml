@@ -1,0 +1,86 @@
+title:
+  People
+subtitle:
+  ""
+
+list:
+  - name:
+      Dr. Davide Donadio
+    email:
+      ddonadio@ucdavis.edu
+    description:
+      Group Leader
+    pic:
+      images/davide-donadio.jpg
+
+  - name:
+      Dr. Shunda Chen
+    email:
+      phychensd@gmail.com
+    description:
+      Postdoctoral Associate
+    pic:
+      images/shunda-chen.jpg
+
+  - name:
+      Dr. Shruba Gangopadhyay
+    email:
+      shruba@gmail.com
+    description:
+      Postdoctoral Associate
+    pic:
+      images/shruba-gangopadhyay.jpg
+
+  - name:
+      Giuseppe Barbalinardo
+    email:
+      gbarbalinardo@ucdavis.edu
+    description:
+      Graduate Student Researcher
+    pic:
+      images/giuseppe-barbalinardo.jpg
+
+  - name:
+      Charlie Sievers
+    email:
+      casievers@ucdavis.edu
+    description:
+      Graduate Student Researcher
+    pic:
+      images/charlie-sievers.jpg
+
+  - name:
+      Jessi Hartman
+    email:
+      jhhartman@ucdavis.edu
+    description:
+      Undergraduate Research Assistant
+    pic:
+      images/empty-profile.png
+
+  - name:
+      Cheryl Fichter
+    email:
+      cafichter@ucdavis.edu
+    description:
+      Undergraduate Research Assistant
+    pic:
+      images/empty-profile.png
+
+  - name:
+      Chris Lam
+    email:
+      junlam@ucdavis.edu
+    description:
+      Undergraduate Research Assistant
+    pic:
+      images/empty-profile.png
+
+  - name:
+      Matthew Han
+    email:
+      mehan@ucdavis.edu
+    description:
+      Undergraduate Research Assistant
+    pic:
+      images/empty-profile.png

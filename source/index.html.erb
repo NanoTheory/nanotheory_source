@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Nanotheory Group</title>
+		<meta name="description" content="<%= data.home.title %> - <%= data.home.subtitle %>">
+		<%= favicon_tag 'images/favicon.png' %>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css"/>
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="#menu">Menu</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="menu">
+			<ul class="links">
+				<li>
+					<a href="#research">Research</a>
+				</li>
+				<li>
+					<a href="#people">People</a>
+				</li>
+				<li>
+					<a href="#publications">Publications</a>
+				</li>
+				<li>
+					<a href="#contact">Contact us</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Banner -->
+		<section id="banner">
+			<header class="major">
+				<span class="icon style3"><img style="width:1.6em;" src="<%= data.home.logo %>" alt=""/></span>
+
+				<h1><%= data.home.title %></h1>
+				<p><%= data.home.subtitle %></p>
+			</header>
+			<ul class="actions">
+				<li>
+					<a href="#research" class="button scrolly"><%= data.home.cta %></a>
+				</li>
+			</ul>
+		</section>
+
+		<!-- One -->
+		<section id="research" class="wrapper style1 special">
+			<div class="inner">
+				<header class="major alt style2">
+					<h2><%= data.projects.title %></h2>
+					<p style="padding-left:1em;padding-right:1em;"><%= data.projects.subtitle %></p>
+				</header>
+				<section class="split">
+
+					<% data.projects.list.each do |f| %>
+					<article>
+						<h4><%= f.title %></h4>
+						<p><%= f.description %></p>
+						<!-- <ul class="actions">
+							<li>
+								<a href="#" class="button"><%= f.button %></a>
+							</li>
+						</ul> -->
+					</article>
+					<% end %>
+
+				</section>
+			</div>
+		</section>
+
+		<!-- Two -->
+		<section id="people" class="wrapper style3 special">
+			<div class="inner">
+				<header class="major">
+					<h2><%= data.people.title %></h2>
+				</header>
+				<section class="spotlights">
+					<% data.people.list.each do |f| %>
+
+					<section>
+						<span class="image">
+							<img style="width:12em; border-radius: 50%;" src="<%= f.pic %>" alt=""/>
+						</span>
+						<h4><%= f.name %></h4>
+						<p><%= f.description %></p>
+						<ul class="actions">
+							<li>
+								<a target="_top" href="mailto:<%= f.email %>" class="button">Contact</a>
+							</li>
+						</ul>
+					</section>
+
+					<% end %>
+
+				</section>
+			</div>
+		</section>
+
+		<!-- Three -->
+		<section id="publications" class="wrapper style1 special">
+			<div class="inner">
+				<header class="major">
+					<h2><%= data.publications.title %></h2>
+					<p><%= data.publications.subtitle %></p>
+				</header>
+				<ul class="alt">
+					<% data.publications.list.each do |f| %>
+					<% link_to f.link do %>
+					<li>
+						<dt>
+							<b><%= f.title %></b>
+						</dt>
+						<dd>
+							<p><%= f.authors %>
+								-
+								<em><%= f.info %></em>
+								-
+								<%= f.year %></p>
+						</dd>
+					</li>
+					<% end %>
+					<% end %>
+
+				</ul>
+
+				<ul class="actions">
+					<li>
+						<a href="<%= data.publications.learn_more.link %>" class="button"><%= data.publications.learn_more.button %></a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Four -->
+		<section id="contact" class="wrapper style4 special-alt">
+			<div class="inner split">
+				<section>
+					<header class="major">
+						<h2><%= data.contact.title %></h2>
+					</header>
+					<p><%= data.contact.subtitle %></p>
+				</section>
+				<form action="https://getsimpleform.com/messages?form_api_token=d1ff7aa525d6ff47e2b0249227e06f86" method="post">
+					<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+					<input type='hidden' name='redirect_to' value='<%= data.contact.domain %>thankyou.html'/>
+					<label for="email">Your email</label>
+					<input type='email' name='email'/>
+					<label for="content">Your message</label>
+					<textarea name="content"></textarea>
+
+					<input type='submit' value='<%= data.contact.submit %>'/>
+				</form>
+
+			</div>
+
+		</section>
+		<!-- Five -->
+		<section id="openings" class="wrapper style1 special alt">
+			<div class="inner">
+				<h4><%= data.recruiting.title %></h4>
+				<p><%= data.recruiting.description %></p>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+
+			<p class="copyright">
+				&copy; Nanotheory Group. All rights reserved.
+			</p>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
