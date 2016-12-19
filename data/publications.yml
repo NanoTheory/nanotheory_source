@@ -1,0 +1,66 @@
+title:
+  Publications
+subtitle:
+  Latest 5 papers from the group
+
+learn_more:
+  button:
+    More Publications
+  link:
+    "https://scholar.google.it/citations?hl=en&user=ECAwg64AAAAJ&view_op=list_works&sortby=pubdate"
+
+list:
+  - title:
+      Thermal conductance of graded silicon germanium superlattices
+    authors:
+      S Chen, R Shen, P Ferrando-Villalba, J Rodriguez-Viejo, D Donadio
+    info:
+      Bulletin of the American Physical Society 61
+    year:
+      2016
+    link:
+      "http://meetings.aps.org/Meeting/FWS16/Session/S3.8"
+
+  - title:
+      Accurate and general treatment of electrostatic interaction in Hamiltonian adaptive resolution simulations
+    authors:
+      M Heidari, R Cortes-Huerto, D Donadio, R Potestio
+    info:
+      The European Physical Journal Special Topics 225 (8-9), 1505-1526
+    year:
+      2016
+    link:
+      "http://link.springer.com/article/10.1140/epjst/e2016-60151-6"
+
+  - title:
+      Effect of van der Waals interactions on the chemisorption and physisorption of phenol and phenoxy on metal surfaces
+    authors:
+      R Peköz, D Donadio
+    info:
+      The Journal of chemical physics 145 (10), 104701
+    year:
+      2016
+    link:
+      "http://aip.scitation.org/doi/abs/10.1063/1.4962236?journalCode=jcp"
+
+  - title:
+      "Optimal thickness of silicon membranes to achieve maximum thermoelectric efficiency: A first principles study"
+    authors:
+      C Mangold, S Neogi, D Donadio
+    info:
+      Applied Physics Letters 109 (5), 053902
+    year:
+      2016
+    link:
+      "http://aip.scitation.org/doi/abs/10.1063/1.4960197?journalCode=apl"
+
+  - title:
+      "Toward Hamiltonian Adaptive QM/MM: Accurate Solvent Structures Using Many-Body Potentials"
+    authors:
+      JM Boereboom, R Potestio, D Donadio, RE Bulo
+    info:
+      Journal of chemical theory and computation 12 (8), 3441-3448
+    year:
+      2016
+    link:
+      "http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00205"
