@@ -1449,7 +1449,7 @@
 
 	body, input, select, textarea {
 		font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
-		font-size: 11.75pt;
+		font-size: 13.75pt;
 		font-weight: 300;
 		line-height: 1.82;
 	}
@@ -1457,7 +1457,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 11.75pt;
+				font-size: 13.75pt;
 			}
 
 		}
@@ -1465,7 +1465,7 @@
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 9pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -1473,7 +1473,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 9pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -1481,7 +1481,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 9pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -1489,7 +1489,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 9pt;
+				font-size: 11pt;
 			}
 
 		}
