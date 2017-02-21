@@ -4,37 +4,32 @@ subtitle:
   Here is a list of the current projects. The common denominator of these projects is the use of molecular modeling techniques with atomistic resolution. Interatomic interactions are treated either by first principle methods or by empirical forcefields, depending of the main focus of the project,
 list:
   - title:
-      BIOMINERALIZATION
-    description:
-      Multiscale study of the crystallization of calcium oxalate in the presence of biopolymers. The approach combines DFT-based MD simulations and classical MD, with enhanced sampling, with the goal of understanding how bio-polymers controls or inhibits crystal growth.
-    button:
-      Read More
-
-  - title:
       SURFACE CHEMISTRY
     description:
-      "We investigate chemical reaction on metal surfaces with first principles static and molecular dynamics methods based on density functional theory. We are currently studying proton transfer in one-dimensional water chains, adsorbed on stepped metal surfaces and adsorption and polymerization of alogenated aromatic molecules on solid and/or liquid surfaces."
-    button:
-      Read More
-
+      "We study chemical reactions at surfaces with first principles static and molecular dynamics methods based on density functional theory."
+    image:
+      images/surface-chemistry.png
   - title:
-      CRYSTALLIZATION OF ICE
+      ATMOSPHERIC ICE
     description:
-      "We perform a molecular dynamics study of the crystal growth of model system, such as Lennard-Jones and Stillinger-Weber liquids, in the presence of model impurities. We aim at elucidating the effects of polymeric additives as inhibitors or accelerators of the crystal growth.
-      Growth rates in the presence of such additives will be calculated either in non-equilibrium two-phase simulations, or by equilibrium MD methods. We will focus on the effects of segregation or adsorption of impurities at the surface, engulfment and recrystallization."
-    button:
-      Read More
-
+      "Our simulations unravel the molecular structure of ice surfaces and the rates and underlying mechanism of ice nucleation at different conditions"
+    image:
+      images/ice.png
   - title:
       THERMAL TRANSPORT
     description:
-      "The investigation of thermal transport in nanostructures has profound implications in materials science and nanoelectronics. We have been carrying out a systematic study of heat transport in silicon nanostructures by molecular dynamics and lattice dynamics methods, aimed at the engineering of new silicon-based thermoelectric materials. Our efforts are now oriented towards the development of new simulation methods, allowing for the simulation of larger systems. We are currently investigating contact conductance of bulk-nanowire interfaces and thermal transport in graphene nanoribbons and hybrid systems made of polymer and inorganic nanostructures."
-    button:
-      Read More
-
+      "Molecular modeling provides an essential insight into phonon transport at the nanoscale which turns out essential to design novel nanophononic devices and nanomaterials with tailored thermal conductivity. "
+    image:
+      images/thermal-transport.png
   - title:
-      IONS IN SOLUTION
+      VIBRATIONAL SPECTROSCOPY
     description:
-      "The study of aqueous solutions is of fundamental interest to chemistry, biology and environmental sciences, and it is the first crucial step to understand biomineralization and polymer-assisted crystallization from solution. Here we propose the theoretical investigation by first principle molecular dynamics simulations of the structural, dynamical and electronic properties of aqueous solutions of divalent anions, such as carbonate and oxalate. These dianions, combined with calcium or other cations, are the building blocks of some of the most common biologically assembled minerals and biomimetic materials, e.g. calcite, aragonite, calcium oxalate."
-    button:
-      Read More
+      "We develop and apply numerical tools to simulate vibrational spectra of liquids, providing a compelling molecular interpretation of experiments"
+    image:
+      images/template.jpg
+  - title:
+      MACHINE LEARNING
+    description:
+      "Through a mindful combination of state-of-the-art machine learning techniques and atomistic modeling, numerical simulations provide guidance to materials design."
+    image:
+      images/machine-learning.png
