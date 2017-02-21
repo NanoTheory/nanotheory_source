@@ -23,6 +23,9 @@
 		<nav id="menu">
 			<ul class="links">
 				<li>
+					<a href="#press">Press</a>
+				</li>
+				<li>
 					<a href="#research">Research</a>
 				</li>
 				<li>
@@ -52,6 +55,39 @@
 			</ul>
 		</section>
 
+		<section id="press" class="wrapper style1 special">
+			<div class="inner">
+				<header class="major">
+					<h2><%= data.press.title %></h2>
+					<p><%= data.press.subtitle %></p>
+				</header>
+				<section class="features">
+
+					<% data.press.list.each do |f| %>
+					<section>
+
+						<h4><%= f.title %></h4>
+						<% link_to f.link do %>
+
+						<p><%= f.info %>
+							-
+							<%= f.date %></p>
+						<% end %>
+
+					</section>
+
+					<% end %>
+				</section>
+				<footer class="major">
+					<ul class="actions">
+						<li>
+							<a href="#" class="button">Learn More</a>
+						</li>
+					</ul>
+				</footer>
+			</div>
+		</section>
+
 		<!-- One -->
 		<section id="research" class="wrapper style1 special">
 			<div class="inner">
@@ -59,18 +95,20 @@
 					<h2><%= data.projects.title %></h2>
 					<p style="padding-left:1em;padding-right:1em;"><%= data.projects.subtitle %></p>
 				</header>
-				<section class="split">
+				<section class="spotlights">
 
 					<% data.projects.list.each do |f| %>
-					<article>
+					<section>
+						<span class="image"><img src=<%= f.image %> alt=""/></span>
+
 						<h4><%= f.title %></h4>
 						<p><%= f.description %></p>
-						<!-- <ul class="actions">
+						<ul class="actions">
 							<li>
-								<a href="#" class="button"><%= f.button %></a>
+								<a href="#" class="button">Learn More</a>
 							</li>
-						</ul> -->
-					</article>
+						</ul>
+					</section>
 					<% end %>
 
 				</section>
@@ -92,11 +130,11 @@
 						</span>
 						<h4><%= f.name %></h4>
 						<p><%= f.description %></p>
-						<ul class="actions">
+						<!-- <ul class="actions">
 							<li>
 								<a target="_top" href="mailto:<%= f.email %>" class="button">Contact</a>
 							</li>
-						</ul>
+						</ul> -->
 					</section>
 
 					<% end %>

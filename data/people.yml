@@ -59,27 +59,27 @@ list:
       images/empty-profile.png
 
   - name:
-      Cheryl Fichter
-    email:
-      cafichter@ucdavis.edu
-    description:
-      Undergraduate Research Assistant
-    pic:
-      images/empty-profile.png
-
-  - name:
-      Chris Lam
-    email:
-      junlam@ucdavis.edu
-    description:
-      Undergraduate Research Assistant
-    pic:
-      images/empty-profile.png
-
-  - name:
       Matthew Han
     email:
       mehan@ucdavis.edu
+    description:
+      Undergraduate Research Assistant
+    pic:
+      images/empty-profile.png
+
+  - name:
+      Yvonne Rodriguez
+    email:
+      yrod@ucdavis.edu
+    description:
+      Undergraduate Research Assistant
+    pic:
+      images/empty-profile.png
+
+  - name:
+      Alexander Patch
+    email:
+      arpatch@ucdavis.edu
     description:
       Undergraduate Research Assistant
     pic:
