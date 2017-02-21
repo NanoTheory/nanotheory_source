@@ -55,29 +55,31 @@
 			</ul>
 		</section>
 
+		<!-- Three -->
 		<section id="press" class="wrapper style1 special">
 			<div class="inner">
 				<header class="major">
 					<h2><%= data.press.title %></h2>
 					<p><%= data.press.subtitle %></p>
 				</header>
-				<section class="features">
-
+				<ul class="alt">
 					<% data.press.list.each do |f| %>
-					<section>
-
-						<h4><%= f.title %></h4>
-						<% link_to f.link do %>
-
-						<p><%= f.info %>
-							-
-							<%= f.date %></p>
-						<% end %>
-
-					</section>
-
+					<% link_to f.link do %>
+					<li>
+						<dt>
+							<b><%= f.title %></b>
+						</dt>
+						<dd>
+								<em><%= f.info %></em>
+								-
+								<%= f.date %></p>
+						</dd>
+					</li>
 					<% end %>
-				</section>
+					<% end %>
+
+				</ul>
+
 			</div>
 		</section>
 
@@ -88,7 +90,6 @@
 					<h2><%= data.projects.title %></h2>
 					<p style="padding-left:1em;padding-right:1em;"><%= data.projects.subtitle %></p>
 				</header>
-
 				<section class="spotlights">
 
 					<% data.projects.list.each do |f| %>
