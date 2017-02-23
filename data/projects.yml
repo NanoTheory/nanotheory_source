@@ -1,7 +1,7 @@
 title:
   Projects
 subtitle:
-  Here is a list of the current projects. The common denominator of these projects is the use of molecular modeling techniques with atomistic resolution. Interatomic interactions are treated either by first principle methods or by empirical forcefields, depending of the main focus of the project,
+  Our present research activities focus on non-equilibrium processes, which range from heterogeneous catalysis to thermal energy transport and conversion in complex systems. We combine traditional all-atom molecular dynamics, electronic structure theory, and rare events techniques, toward a comprehensive theoretical approach able to cover several time and length scales.
 list:
   - title:
       SURFACE CHEMISTRY
@@ -26,7 +26,7 @@ list:
     description:
       "We develop and apply numerical tools to simulate vibrational spectra of liquids, providing a compelling molecular interpretation of experiments"
     image:
-      images/template.jpg
+      images/surface.png
   - title:
       MACHINE LEARNING
     description:
