@@ -122,17 +122,15 @@
 				<section class="spotlights">
 					<% data.people.list.each do |f| %>
 
-					<section>
+					<section>							<% link_to f.link do %>
+
 						<span class="image">
 							<img style="width:12em; border-radius: 50%;" src="<%= f.pic %>" alt=""/>
 						</span>
 						<h4><%= f.name %></h4>
 						<p><%= f.description %></p>
-						<!-- <ul class="actions">
-							<li>
-								<a target="_top" href="mailto:<%= f.email %>" class="button">Contact</a>
-							</li>
-						</ul> -->
+							<% end %>
+
 					</section>
 
 					<% end %>
