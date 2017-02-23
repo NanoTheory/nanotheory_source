@@ -59,23 +59,20 @@
 		<section id="press" class="wrapper style1 special">
 			<div class="inner">
 				<header class="major">
-					<h2><%= data.press.title %></h2>
-					<p><%= data.press.subtitle %></p>
-				</header>
+					<h2><%= data.press.subtitle %></h2>
+
+					</header>
 				<ul class="alt">
+
 					<% data.press.list.each do |f| %>
-					<% link_to f.link do %>
 					<li>
-						<dt>
 							<b><%= f.title %></b>
-						</dt>
-						<dd>
-								<em><%= f.info %></em>
-								-
-								<%= f.date %></p>
-						</dd>
+							<% link_to f.link do %>
+								<%= f.info %>
+							<% end %>
+
+								<%= f.date %>
 					</li>
-					<% end %>
 					<% end %>
 
 				</ul>
@@ -147,20 +144,21 @@
 				</header>
 				<ul class="alt">
 					<% data.publications.list.each do |f| %>
-					<% link_to f.link do %>
 					<li>
 						<dt>
 							<b><%= f.title %></b>
 						</dt>
-						<dd>
-							<p><%= f.authors %>
+						<dd>					<% link_to f.link do %>
+
+							<p style="padding-left:1em;padding-right:1em;">
+								<%= f.authors %>
 								-
 								<em><%= f.info %></em>
 								-
-								<%= f.year %></p>
+								<%= f.year %></p>					<% end %>
+
 						</dd>
 					</li>
-					<% end %>
 					<% end %>
 
 				</ul>
