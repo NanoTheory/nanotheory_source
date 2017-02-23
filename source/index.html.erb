@@ -96,9 +96,15 @@
 						<h4><%= f.title %></h4>
 						<p><%= f.description %></p>
 						<ul class="actions">
-							<li>
-								<a href="#" class="button">Learn More</a>
-							</li>
+
+						Refs: <% f.refs.each do |f| %>
+
+							<i><a href="<%= f.link %>"><%= f.title %></a></i>
+
+						<!-- <i> <%= f.title %> </i> <%= f.link %> -->
+						 -
+						<% end %>
+
 						</ul>
 					</section>
 					<% end %>

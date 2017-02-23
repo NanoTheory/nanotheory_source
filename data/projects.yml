@@ -9,27 +9,60 @@ list:
       "We study chemical reactions at surfaces with first principles static and molecular dynamics methods based on density functional theory."
     image:
       images/surface-chemistry.png
+    refs:
+      - title: "Trends in the Adsorption and Dissociation of Water Clusters on Flat and Stepped Metallic Surfaces"
+        link: "http://pubs.acs.org/doi/abs/10.1021/jp510242h"
+
+      - title: "Tuning the Adsorption of Aromatic Molecules on Platinum via Halogenation"
+        link: "http://pubs.acs.org/doi/abs/10.1021/jp411422xSpectroscopy: Simulating Energy Relaxation in Pump–Probe Vibrational Spectroscopy of Hydrogen-Bonded Liquids"
+
+
   - title:
       ATMOSPHERIC ICE
     description:
       "Our simulations unravel the molecular structure of ice surfaces and the rates and underlying mechanism of ice nucleation at different conditions"
     image:
       images/ice.png
+    refs:
+      - title: "Experimental and theoretical evidence for bilayer-by-bilayer surface melting of crystalline ice"
+        link: "http://www.pnas.org/lookup/doi/10.1073/pnas.1612893114"
+      - title: "Microscopic Mechanism and Kinetics of Ice Formation at Complex Interfaces: Zooming in on Kaolinite"
+        link: "http://pubs.acs.org/doi/abs/10.1021/acs.jpclett.6b01013"
+
+
+
   - title:
       THERMAL TRANSPORT
     description:
       "Molecular modeling provides an essential insight into phonon transport at the nanoscale which turns out essential to design novel nanophononic devices and nanomaterials with tailored thermal conductivity. "
     image:
       images/thermal-transport.png
+    refs:
+      - title: "Nanophononics: state of the art and perspectives"
+        link: "http://link.springer.com/10.1140/epjb/e2015-60727-7"
+      - title: "Tuning Thermal Transport in Ultrathin Silicon Membranes by Surface Nanoscale Engineering"
+        link: "http://pubs.acs.org/doi/abs/10.1021/nn506792d"
+
+
   - title:
       VIBRATIONAL SPECTROSCOPY
     description:
       "We develop and apply numerical tools to simulate vibrational spectra of liquids, providing a compelling molecular interpretation of experiments"
     image:
       images/surface.png
+    refs:
+      - title: "Spectroscopy: Simulating Energy Relaxation in Pump–Probe Vibrational Spectroscopy of Hydrogen-Bonded Liquids"
+        link: "http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b01108"
+
+
   - title:
       MACHINE LEARNING
     description:
       "Through a mindful combination of state-of-the-art machine learning techniques and atomistic modeling, numerical simulations provide guidance to materials design."
     image:
       images/machine-learning.png
+    refs:
+      - title: "Atomistic calculation of the thermal conductance of large scale bulk-nanowire junctions"
+        link: "http://link.aps.org/doi/10.1103/PhysRevB.84.115423"
+      - title: "Nuclear Quantum Effects in Water: A Multiscale Study"
+        link: "http://pubs.acs.org/doi/abs/10.1021/ct4010504"
