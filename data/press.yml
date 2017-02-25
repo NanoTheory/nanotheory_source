@@ -1,7 +1,7 @@
 title:
   Press
 subtitle:
-  Our research in the news
+  Recent news
 
 list:
   - title:
@@ -31,40 +31,31 @@ list:
     link:
       "http://phys.org/wire-news/191183401/surface-matters-huge-reduction-of-heat-conduction-observed-in-fl.html"
 
-
-  - title:
-      Thermal transport in ultra-thin silicon membranes
-    info:
-      Phys.org
-    date:
-      05/2015
-    link:
-      "http://phys.org/wire-news/191183401/surface-matters-huge-reduction-of-heat-conduction-observed-in-fl.html"
-
-  - title:
-      Size dependent thermal conductivity of graphene
-    info:
-      Phys.org
-    date:
-      05/2014
-    link:
-      "http://phys.org/news/2014-05-physicists-unlimited-graphene.html"
-
-  - title:
-      Crystallization of water nanodroplets
-    info:
-      Nanowerk
-    date:
-      04/2013
-    link:
-      "http://www.nanowerk.com/news2/newsid=30597.php"
-
-
-  - title:
-      Water splitting at platinum steps
-    info:
-      Chemistry Views
-    date:
-      11/2012
-    link:
-      "http://www.chemistryviews.org/details/news/3611141/Adsorption_of_Water_on_a_Stepped_Pt_Surface.html"
+  #
+  # - title:
+  #     Size dependent thermal conductivity of graphene
+  #   info:
+  #     Phys.org
+  #   date:
+  #     05/2014
+  #   link:
+  #     "http://phys.org/news/2014-05-physicists-unlimited-graphene.html"
+  #
+  # - title:
+  #     Crystallization of water nanodroplets
+  #   info:
+  #     Nanowerk
+  #   date:
+  #     04/2013
+  #   link:
+  #     "http://www.nanowerk.com/news2/newsid=30597.php"
+  #
+  #
+  # - title:
+  #     Water splitting at platinum steps
+  #   info:
+  #     Chemistry Views
+  #   date:
+  #     11/2012
+  #   link:
+  #     "http://www.chemistryviews.org/details/news/3611141/Adsorption_of_Water_on_a_Stepped_Pt_Surface.html"

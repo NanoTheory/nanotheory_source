@@ -55,29 +55,28 @@
 			</ul>
 		</section>
 
+		<!-- Three -->
 		<section id="press" class="wrapper style1 special">
 			<div class="inner">
 				<header class="major">
-					<h2><%= data.press.title %></h2>
-					<p><%= data.press.subtitle %></p>
-				</header>
-				<section class="features">
+					<h2><%= data.press.subtitle %></h2>
+
+					</header>
+				<ul class="alt">
 
 					<% data.press.list.each do |f| %>
-					<section>
+					<li>
+							<b><%= f.title %></b>
+							<% link_to f.link do %>
+								<%= f.info %>
+							<% end %>
 
-						<h4><%= f.title %></h4>
-						<% link_to f.link do %>
-
-						<p><%= f.info %>
-							-
-							<%= f.date %></p>
-						<% end %>
-
-					</section>
-
+								<%= f.date %>
+					</li>
 					<% end %>
-				</section>
+
+				</ul>
+
 			</div>
 		</section>
 
@@ -86,9 +85,8 @@
 			<div class="inner">
 				<header class="major alt style2">
 					<h2><%= data.projects.title %></h2>
-					<p style="padding-left:1em;padding-right:1em;"><%= data.projects.subtitle %></p>
+					<p style="padding-left:1.5em;padding-right:1.5em;"><%= data.projects.subtitle %></p>
 				</header>
-
 				<section class="spotlights">
 
 					<% data.projects.list.each do |f| %>
@@ -98,9 +96,15 @@
 						<h4><%= f.title %></h4>
 						<p><%= f.description %></p>
 						<ul class="actions">
-							<li>
-								<a href="#" class="button">Learn More</a>
-							</li>
+
+						Refs: <% f.refs.each do |f| %>
+
+							<i><a href="<%= f.link %>"><%= f.title %></a></i>
+
+						<!-- <i> <%= f.title %> </i> <%= f.link %> -->
+						 -
+						<% end %>
+
 						</ul>
 					</section>
 					<% end %>
@@ -118,17 +122,15 @@
 				<section class="spotlights">
 					<% data.people.list.each do |f| %>
 
-					<section>
+					<section>							<% link_to f.link do %>
+
 						<span class="image">
 							<img style="width:12em; border-radius: 50%;" src="<%= f.pic %>" alt=""/>
 						</span>
 						<h4><%= f.name %></h4>
 						<p><%= f.description %></p>
-						<!-- <ul class="actions">
-							<li>
-								<a target="_top" href="mailto:<%= f.email %>" class="button">Contact</a>
-							</li>
-						</ul> -->
+							<% end %>
+
 					</section>
 
 					<% end %>
@@ -146,20 +148,21 @@
 				</header>
 				<ul class="alt">
 					<% data.publications.list.each do |f| %>
-					<% link_to f.link do %>
 					<li>
 						<dt>
 							<b><%= f.title %></b>
 						</dt>
-						<dd>
-							<p><%= f.authors %>
+						<dd>					<% link_to f.link do %>
+
+							<p style="padding-left:1em;padding-right:1em;">
+								<%= f.authors %>
 								-
 								<em><%= f.info %></em>
 								-
-								<%= f.year %></p>
+								<%= f.year %></p>					<% end %>
+
 						</dd>
 					</li>
-					<% end %>
 					<% end %>
 
 				</ul>
