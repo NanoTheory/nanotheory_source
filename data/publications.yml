@@ -1,7 +1,7 @@
 title:
   Publications
 subtitle:
-  Latest 5 papers from the group
+  Five most recent publications
 
 learn_more:
   button:
@@ -11,15 +11,26 @@ learn_more:
 
 list:
   - title:
-      Thermal conductance of graded silicon germanium superlattices
+      Experimental and theoretical evidence for bilayer-by-bilayer surface melting of crystalline ice
     authors:
-      S Chen, R Shen, P Ferrando-Villalba, J Rodriguez-Viejo, D Donadio
+      MA Sánchez, T Kling, T Ishiyama, M-J van Zadel, PJ Bisson, M Mezger, MN Jochum, JD Cyran, WJ Smit, HJ Bakker, MJ Shultz, A Morita, D Donadio, Y Nagata, M Bonn, EHG Backus
     info:
-      Bulletin of the American Physical Society 61
+      Proceedings of the National Academy of Sciences 114 (2), 227-232
     year:
-      2016
+      2017
     link:
-      "http://meetings.aps.org/Meeting/FWS16/Session/S3.8"
+      "http://www.pnas.org/content/114/2/227.short"
+
+  - title:
+      Simulating energy relaxation in pump-probe vibrational spectroscopy of hydrogen-bonded liquids
+    authors:
+      R Dettori, M Ceriotti, J Hunger, C Melis, L Colombo, D Donadio   
+    info:
+      Journal of Chemical Theory and Computation
+    year:
+      2017
+    link:
+      "http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b01108"
 
   - title:
       Accurate and general treatment of electrostatic interaction in Hamiltonian adaptive resolution simulations
@@ -54,13 +65,3 @@ list:
     link:
       "http://aip.scitation.org/doi/abs/10.1063/1.4960197?journalCode=apl"
 
-  - title:
-      "Toward Hamiltonian Adaptive QM/MM: Accurate Solvent Structures Using Many-Body Potentials"
-    authors:
-      JM Boereboom, R Potestio, D Donadio, RE Bulo
-    info:
-      Journal of chemical theory and computation 12 (8), 3441-3448
-    year:
-      2016
-    link:
-      "http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00205"
