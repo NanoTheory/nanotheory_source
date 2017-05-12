@@ -11,6 +11,28 @@ learn_more:
 
 list:
   - title:
+      "Thermal conductivity decomposition in two-dimensional materials: Application to graphene"
+    authors:
+      "Z Fan, LFC Pereira, P Hirvonen, MM Ervasti, KR Elder, D Donadio,"
+    info:
+      "Physical Review B 95 (14), 144309"
+    year:
+      2017
+    link:
+      "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECAwg64AAAAJ&sortby=pubdate&citation_for_view=ECAwg64AAAAJ:eflP2zaiRacC"
+
+  - title:
+      "A Strategy to Suppress Phonon Transport in Molecular Junctions Using π-Stacked Systems"
+    authors:
+      "Q Li, M Strange, I Duchemin, D Donadio, GC Solomon"
+    info:
+      "The Journal of Physical Chemistry C 121 (13), 7175-7182	"
+    year:
+      2017
+    link:
+      "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECAwg64AAAAJ&sortby=pubdate&citation_for_view=ECAwg64AAAAJ:q3oQSFYPqjQC"
+
+  - title:
       Experimental and theoretical evidence for bilayer-by-bilayer surface melting of crystalline ice
     authors:
       MA Sánchez, T Kling, T Ishiyama, M-J van Zadel, PJ Bisson, M Mezger, MN Jochum, JD Cyran, WJ Smit, HJ Bakker, MJ Shultz, A Morita, D Donadio, Y Nagata, M Bonn, EHG Backus
@@ -24,7 +46,7 @@ list:
   - title:
       Simulating energy relaxation in pump-probe vibrational spectroscopy of hydrogen-bonded liquids
     authors:
-      R Dettori, M Ceriotti, J Hunger, C Melis, L Colombo, D Donadio   
+      R Dettori, M Ceriotti, J Hunger, C Melis, L Colombo, D Donadio
     info:
       Journal of Chemical Theory and Computation
     year:
@@ -64,4 +86,3 @@ list:
       2016
     link:
       "http://aip.scitation.org/doi/abs/10.1063/1.4960197?journalCode=apl"
-
