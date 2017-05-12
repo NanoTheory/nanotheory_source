@@ -10,6 +10,13 @@ learn_more:
     "https://scholar.google.it/citations?hl=en&user=ECAwg64AAAAJ&view_op=list_works&sortby=pubdate"
 
 list:
+  - title: 
+           "A Strategy to Suppress Phonon Transport in Molecular Junctions Using π-Stacked Systems"
+    authors: Q Li, M Strange, I Duchemin, D Donadio, GC Solomon
+    info: The Journal of Physical Chemistry C 121, 7175-7182
+    year: 2017
+    link: "http://pubs.acs.org/doi/abs/10.1021/acs.jpcc.7b02005"
+
   - title:
       Experimental and theoretical evidence for bilayer-by-bilayer surface melting of crystalline ice
     authors:
