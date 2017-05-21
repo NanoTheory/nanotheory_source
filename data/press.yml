@@ -1,7 +1,12 @@
-title:
+title1:
   Press
-subtitle:
-  Recent news
+title2:
+  News
+
+
+news:
+  - title: 'Jessi Hartman won one of the best presentation awards at the Larock undergraduate research conference'
+    date: '05/20/2017'
 
 list:
   - title:
