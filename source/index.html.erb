@@ -55,30 +55,46 @@
 			</ul>
 		</section>
 
-		<!-- Three -->
-		<section id="press" class="wrapper style1 special">
-			<div class="inner">
-				<header class="major">
-					<h2><%= data.press.subtitle %></h2>
-
-					</header>
-				<ul class="alt">
-
-					<% data.press.list.each do |f| %>
-					<li>
-							<b><%= f.title %></b>
-							<% link_to f.link do %>
-								<%= f.info %>
-							<% end %>
-
-								<%= f.date %>
-					</li>
-					<% end %>
-
-				</ul>
-
-			</div>
-		</section>
+				<!-- One -->
+				<section id="press" class="wrapper style1 special">
+					<div class="inner">
+						<section class="spotlights">
+							<section>
+												<div class="inner">
+													<header class="major">
+														<h2><%= data.press.title1 %></h2>
+													</header>
+													<ul class="alt">
+														<% data.press.list.each do |f| %>
+														<li>
+															<b><%= f.title %></b>
+															<% link_to f.link do %>
+															<%= f.info %>
+															<% end %>
+															<%= f.date %>
+														</li>
+														<% end %>
+													</ul>
+												</div>
+							</section>
+								<section>
+													<div class="inner">
+														<header class="major">
+															<h2><%= data.press.title2 %></h2>
+														</header>
+														<ul class="alt">
+															<% data.press.news.each do |f| %>
+															<li>
+																<b><%= f.title %></b> -
+																<%= f.date %>
+															</li>
+															<% end %>
+														</ul>
+													</div>
+								</section>
+						</section>
+					</div>
+				</section>
 
 		<!-- One -->
 		<section id="research" class="wrapper style1 special">
@@ -97,13 +113,16 @@
 						<p><%= f.description %></p>
 						<ul class="actions">
 
-						Refs: <% f.refs.each do |f| %>
+							Refs:
+							<% f.refs.each do |f| %>
 
-							<i><a href="<%= f.link %>"><%= f.title %></a></i>
+							<i>
+								<a href="<%= f.link %>"><%= f.title %></a>
+							</i>
 
-						<!-- <i> <%= f.title %> </i> <%= f.link %> -->
-						 -
-						<% end %>
+							<!-- <i> <%= f.title %> </i> <%= f.link %> -->
+							-
+							<% end %>
 
 						</ul>
 					</section>
@@ -122,14 +141,15 @@
 				<section class="spotlights">
 					<% data.people.list.each do |f| %>
 
-					<section>							<% link_to f.link do %>
+					<section>
+						<% link_to f.link do %>
 
 						<span class="image">
 							<img style="width:12em; border-radius: 50%;" src="<%= f.pic %>" alt=""/>
 						</span>
 						<h4><%= f.name %></h4>
 						<p><%= f.description %></p>
-							<% end %>
+						<% end %>
 
 					</section>
 
@@ -152,14 +172,16 @@
 						<dt>
 							<b><%= f.title %></b>
 						</dt>
-						<dd>					<% link_to f.link do %>
+						<dd>
+							<% link_to f.link do %>
 
 							<p style="padding-left:1em;padding-right:1em;">
 								<%= f.authors %>
 								-
 								<em><%= f.info %></em>
 								-
-								<%= f.year %></p>					<% end %>
+								<%= f.year %></p>
+							<% end %>
 
 						</dd>
 					</li>
