@@ -84,8 +84,8 @@
 														<ul class="alt">
 															<% data.press.news.each do |f| %>
 															<li>
-																<b><%= f.title %></b> -
-																<%= f.date %>
+																<b><%= f.title %></b>
+																<a href="<%= f.link %>"><%= f.link %></a> - <%= f.date %>
 															</li>
 															<% end %>
 														</ul>
