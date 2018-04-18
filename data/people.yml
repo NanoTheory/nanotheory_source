@@ -23,15 +23,6 @@ list:
       images/shunda-chen.jpg
 
   - name:
-      Dr. Shruba Gangopadhyay
-    link:
-      "#"
-    description:
-      Postdoctoral Associate
-    pic:
-      images/shruba-gangopadhyay.jpg
-
-  - name:
       Giuseppe Barbalinardo
     link:
       "http://giuseppe.barbalinardo.com"
@@ -50,37 +41,29 @@ list:
       images/charlie-sievers.jpg
 
   - name:
-      Jessi Hartman
+      Fernanda Bononi
     link:
       "#"
     description:
-      Undergraduate Research Assistant
+      Graduate Student Researcher
+    pic:
+      images/fernanda.jpg
+
+  - name:
+      Miqdad Raza
+    link:
+      "#"
+    description:
+      Graduate Student Researcher
+    pic:
+      images/mickey.jpg
+
+  - name:
+      Yuxuan Chen
+    link:
+      "#"
+    description:
+      Graduate Student Researcher
     pic:
       images/empty-profile.png
 
-  - name:
-      Matthew Han
-    link:
-      "#"
-    description:
-      Undergraduate Research Assistant
-    pic:
-      images/matthew-han.jpg
-
-  - name:
-      Yvonne Rodriguez
-    link:
-      "#"
-    description:
-      Undergraduate Research Assistant
-    pic:
-      images/yvonne-rodriguez.jpeg
-
-  - name:
-      Alexander Patch
-    link:
-      "#"
-    description:
-      Undergraduate Research Assistant
-    pic:
-      images/alexander-patch.jpg
