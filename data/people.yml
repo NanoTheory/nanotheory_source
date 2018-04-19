@@ -2,6 +2,8 @@ title:
   People
 subtitle:
   ""
+undergradtitle:
+  "Undergraduate Research"
 
 list:
   - name:
@@ -67,3 +69,12 @@ list:
     pic:
       images/yuxuan-chen.jpg
 
+undergradlist:
+  - name:
+      Brendan Russ
+  - name:
+      José Manuel Sanchez
+  - name:
+      Alex Patch
+  - name:
+      Max Win
