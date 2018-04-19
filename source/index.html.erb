@@ -55,44 +55,47 @@
 			</ul>
 		</section>
 
-				<!-- One -->
-				<section id="press" class="wrapper style1 special">
-					<div class="inner">
-						<section class="spotlights">
-							<section>
-													<header>
-														<br/>
-														<h2><%= data.press.title1 %></h2>
-													</header>
-													<ul class="alt">
-														<% data.press.list.each do |f| %>
-														<li>
-															<b><%= f.title %></b>
-															<% link_to f.link do %>
-															<%= f.info %>
-															<% end %>
-															<%= f.date %>
-														</li>
-														<% end %>
-													</ul>
-							</section>
-								<section>
+		<!-- One -->
+		<section id="press" class="wrapper style1 special">
+			<div class="inner">
+				<section class="spotlights">
+					<section>
+						<header>
+							<br/>
+							<h2><%= data.press.title1 %></h2>
+						</header>
+						<ul class="alt">
+							<% data.press.list.each do |f| %>
+								<li>
+									<b><%= f.title %></b>
+									<% link_to f.link do %>
+										<%= f.info %>
+									<% end %>
+									<%= f.date %>
+								</li>
+							<% end %>
+						</ul>
+					</section>
+					<section>
 
-															<header>
-																<br/>															<h2><%= data.press.title2 %></h2>
-														</header>
-														<ul class="alt">
-															<% data.press.news.each do |f| %>
-															<li>
-																<b><%= f.title %></b>
-																<a href="<%= f.link %>"><%= f.link %></a> - <%= f.date %>
-															</li>
-															<% end %>
-														</ul>
-								</section>
-						</section>
-					</div>
+						<header>
+							<br/>
+							<h2><%= data.press.title2 %></h2>
+						</header>
+						<ul class="alt">
+							<% data.press.news.each do |f| %>
+								<li>
+									<b><%= f.title %></b>
+									<a href="<%= f.link %>"><%= f.link %></a>
+									-
+									<%= f.date %>
+								</li>
+							<% end %>
+						</ul>
+					</section>
 				</section>
+			</div>
+		</section>
 
 		<!-- One -->
 		<section id="research" class="wrapper style1 special">
@@ -104,26 +107,26 @@
 				<section class="spotlights">
 
 					<% data.projects.list.each do |f| %>
-					<section>
-						<span class="image"><img src=<%= f.image %> alt=""/></span>
+						<section>
+							<span class="image"><img src=<%= f.image %> alt=""/></span>
 
-						<h4><%= f.title %></h4>
-						<p><%= f.description %></p>
-						<ul class="actions">
+							<h4><%= f.title %></h4>
+							<p><%= f.description %></p>
+							<ul class="actions">
 
-							Refs:
-							<% f.refs.each do |f| %>
+								Refs:
+								<% f.refs.each do |f| %>
 
-							<i>
-								<a href="<%= f.link %>"><%= f.title %></a>
-							</i>
+									<i>
+										<a href="<%= f.link %>"><%= f.title %></a>
+									</i>
 
-							<!-- <i> <%= f.title %> </i> <%= f.link %> -->
-							-
-							<% end %>
+									<!-- <i> <%= f.title %> </i> <%= f.link %> -->
+									-
+								<% end %>
 
-						</ul>
-					</section>
+							</ul>
+						</section>
 					<% end %>
 
 				</section>
@@ -139,21 +142,38 @@
 				<section class="spotlights">
 					<% data.people.list.each do |f| %>
 
-					<section>
-						<% link_to f.link do %>
+						<section>
+							<% link_to f.link do %>
 
-						<span class="image">
-							<img style="width:12em; border-radius: 50%;" src="<%= f.pic %>" alt=""/>
-						</span>
-						<h4><%= f.name %></h4>
-						<p><%= f.description %></p>
-						<% end %>
+								<span class="image">
+									<img style="width:12em; border-radius: 50%;" src="<%= f.pic %>" alt=""/>
+								</span>
+								<h4><%= f.name %></h4>
+								<p><%= f.description %></p>
+							<% end %>
 
-					</section>
+						</section>
 
 					<% end %>
 
 				</section>
+				<section>
+					<div class="inner">
+						<h4><%= data.people.undergradtitle %></h4>
+					</div>
+					<div class="table-wrapper">
+						<table>
+							<tbody>
+								<% data.people.undergradlist.each do |f| %>
+								<tr>
+									<td><%= f.name %></td>
+								</tr>
+								<% end %>
+							</tbody>
+						</table>
+					</div>
+				</section>
+
 			</div>
 		</section>
 
@@ -166,23 +186,23 @@
 				</header>
 				<ul class="alt">
 					<% data.publications.list.each do |f| %>
-					<li>
-						<dt>
-							<b><%= f.title %></b>
-						</dt>
-						<dd>
-							<% link_to f.link do %>
+						<li>
+							<dt>
+								<b><%= f.title %></b>
+							</dt>
+							<dd>
+								<% link_to f.link do %>
 
-							<p style="padding-left:1em;padding-right:1em;">
-								<%= f.authors %>
-								-
-								<em><%= f.info %></em>
-								-
-								<%= f.year %></p>
-							<% end %>
+									<p style="padding-left:1em;padding-right:1em;">
+										<%= f.authors %>
+										-
+										<em><%= f.info %></em>
+										-
+										<%= f.year %></p>
+								<% end %>
 
-						</dd>
-					</li>
+							</dd>
+						</li>
 					<% end %>
 
 				</ul>
