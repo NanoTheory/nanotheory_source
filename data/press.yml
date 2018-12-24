@@ -6,6 +6,10 @@ title2:
 
 news:
 
+  - title: 'Conference on nanophononics sponsored by ICTP'
+    date: '12/2018'
+    link: 'http://indico.ictp.it/event/8693/material/poster/'
+
   - title: 'Tianze Wang won the Best Student Researcher Award for her project: Force field fitting for ice surface disordering'
     date: '08/2018'
     link: ''
@@ -17,9 +21,17 @@ news:
   - title: 'Davide Donadio was named a 2017 UC Davis Hellman Fellow'
     date: '07/2017'
     link: 'http://www.hellmanfellows.org/fellows/davide-donadio'
-
-
+    
 list:
+  - title:
+      Thermal Transistor Handles Heat at the Nanoscale
+    info:
+      Egghead - About research at UC Davis
+    date:
+      12/2018
+    link:
+      "http://blogs.ucdavis.edu/egghead/2018/11/16/thermal-transistor-handles-heat-nanoscale/"
+
   - title:
       Layer-by-layer melting of ice
     info:

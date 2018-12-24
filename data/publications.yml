@@ -1,78 +1,74 @@
 title: Publications
 subtitle: 'Most recent publications'
 learn_more:
- button: 'More Publications'
- link: 'https://scholar.google.it/citations?hl=en&user=ECAwg64AAAAJ&view_op=list_works&sortby=pubdate'
+  button: 'More Publications'
+  link: 'https://scholar.google.it/citations?hl=en&user=ECAwg64AAAAJ&view_op=list_works&sortby=pubdate'
 list:
- -
-  title: 'Decisive role of nuclear quantum effects on surface mediated water dissociation at finite temperature'
-  authors: 'Y Litman, D Donadio, M Ceriotti, M Rossi'
-  info: 'The Journal of Chemical Physics 148 (10), 102320'
-  year: 2018
-  link: 'https://aip.scitation.org/doi/abs/10.1063/1.5002537'
- -
-  title: 'Efficient thermal diode with ballistic spacer'
-  authors: 'S Chen, D Donadio, G Benenti, G Casati'
-  info: 'Physical Review E 97 (3), 030101'
-  year: 2018
-  link: 'https://link.aps.org/doi/10.1103/PhysRevE.97.030101'
- -
-  title: 'High Seebeck Coefficient and Unusually Low Thermal Conductivity Near Ambient Temperatures in Layered Compound Yb2-xEuxCdSb2'
-  authors: 'JA Cooley, P Promkhan, S Ganghopadhyay, D Donadio, WE Pickett, ...'
-  info: 'Chemistry of Materials'
-  year: 2018
-  link: 'http://dx.doi.org/10.1021/acs.chemmater.7b04517'
- -
-  title: 'Selective Adsorption of a Supramolecular Structure on Flat and Stepped Gold Surfaces'
-  authors: 'R Peköz, D Donadio'
-  info: 'Surface Science'
-  year: 2017
-  link: 'https://www.sciencedirect.com/science/article/pii/S0039602817307884'
- -
-  title: 'Combined Experimental and Theoretical Investigation of Heating Rate on Growth of Iron Oxide Nanoparticles'
-  authors: 'H Sharifi Dehsari, M Heidari, A Halda Ribeiro, W Tremel, G Jakob, ...'
-  info: 'Chemistry of Materials 29 (22), 9648-9656'
-  year: 2017
-  link: 'http://pubs.acs.org/doi/abs/10.1021/acs.chemmater.7b02872'
- -
-  title: 'Bimodal grain-size scaling of thermal transport in polycrystalline graphene from large-scale molecular dynamics simulations'
-  authors: 'Z Fan, P Hirvonen, LFC Pereira, MM Ervasti, KR Elder, D Donadio, ...'
-  info: 'Nano letters 17 (10), 5919-5924'
-  year: 2017
-  link: 'http://pubs.acs.org/doi/abs/10.1021/acs.nanolett.7b01742'
- -
-  title: 'Dissociative Adsorption of Water at (211) Stepped Metallic Surfaces by First-Principles Simulations'
-  authors: 'R Peköz, D Donadio'
-  info: 'The Journal of Physical Chemistry C 121 (31), 16783-16791'
-  year: 2017
-  link: 'http://pubs.acs.org/doi/abs/10.1021/acs.jpcc.7b03226'
- -
-  title: 'Native surface oxide turns alloyed silicon membranes into nanophononic metamaterials with ultralow thermal conductivity'
-  authors: 'S Xiong, D Selli, S Neogi, D Donadio'
-  info: 'Physical Review B 95 (18), 180301'
-  year: 2017
-  link: 'https://link.aps.org/doi/10.1103/PhysRevB.95.180301'
- -
-  title: 'Thermal conductivity decomposition in two-dimensional materials: Application to graphene'
-  authors: 'Z Fan, LFC Pereira, P Hirvonen, MM Ervasti, KR Elder, D Donadio, ...'
-  info: 'Physical Review B 95 (14), 144309'
-  year: 2017
-  link: 'https://link.aps.org/doi/10.1103/PhysRevB.95.144309'
- -
-  title: 'A Strategy to Suppress Phonon Transport in Molecular Junctions Using π-Stacked Systems'
-  authors: 'Q Li, M Strange, I Duchemin, D Donadio, GC Solomon'
-  info: 'The Journal of Physical Chemistry C 121 (13), 7175-7182'
-  year: 2017
-  link: 'http://pubs.acs.org/doi/abs/10.1021/acs.jpcc.7b02005'
- -
-  title: 'Simulating Energy Relaxation in Pump–Probe Vibrational Spectroscopy of Hydrogen-Bonded Liquids'
-  authors: 'R Dettori, M Ceriotti, J Hunger, C Melis, L Colombo, D Donadio'
-  info: 'Journal of chemical theory and computation 13 (3), 1284-1292'
-  year: 2017
-  link: 'http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b01108'
- -
-  title: 'Experimental and theoretical evidence for bilayer-by-bilayer surface melting of crystalline ice'
-  authors: 'MA Sánchez, T Kling, T Ishiyama, MJ van Zadel, PJ Bisson, M Mezger, ...'
-  info: 'Proceedings of the National Academy of Sciences 114 (2), 227-232'
-  year: 2017
-  link: 'http://www.pnas.org/content/114/2/227'
+  - year: 2018
+    publications:
+    - title: 'Thermal transport across graphene step junctions'
+      authors: 'Miguel Muñoz Rojo, Zuanyi Li, Charles Sievers, Alex C Bornstein, Eilam Yalon, Sanchit Deshmukh, Sam Vaziri, Myung-Ho Bae, Feng Xiong, Davide Donadio'
+      info: '2D Materials, Volume 6, Number 1'
+      link: 'http://iopscience.iop.org/article/10.1088/2053-1583/aae7ea/meta'
+    - title: 'Enhanced thermoelectric performance of two dimensional MS2 (M = Mo, W) through phase engineering'
+      authors: 'Bin Ouyang, Shunda Chen, Yuhang Jing, Tianran Wei, Shiyun Xiong, Davide Donadio'
+      info: 'Journal of Materiomics, Volume 4, Issue 4, December 2018, Pages 329-337'
+      link: 'https://www.sciencedirect.com/science/article/pii/S2352847817301090'
+    - title: 'An electrochemical thermal transistor'
+      authors: 'Aditya Sood, Feng Xiong, Shunda Chen, Haotian Wang, Daniele Selli, Jinsong Zhang, Connor J. McClellan, Jie Sun, Davide Donadio, Yi Cui, Eric Pop & Kenneth E. Goodson'
+      info: 'Nature Communicationsvolume 9, Article number: 4510 (2018)'
+      link: 'https://www.nature.com/articles/s41467-018-06760-7'
+    - title: 'Structure and Dynamics of the Quasi-Liquid Layer at the Surface of Ice from Molecular Simulations'
+      authors: 'Tanja Kling, Felix Kling, and Davide Donadio'
+      info: 'J. Phys. Chem. C, 2018, 122 (43), pp 24780–24787'
+      link: 'https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.8b07724'
+    - title: 'Decisive role of nuclear quantum effects on surface mediated water dissociation at finite temperature'
+      authors: 'Y Litman, D Donadio, M Ceriotti, M Rossi'
+      info: 'The Journal of Chemical Physics 148 (10), 102320'
+      link: 'https://aip.scitation.org/doi/abs/10.1063/1.5002537'
+    - title: 'Efficient thermal diode with ballistic spacer'
+      authors: 'S Chen, D Donadio, G Benenti, G Casati'
+      info: 'Physical Review E 97 (3), 030101'
+      link: 'https://link.aps.org/doi/10.1103/PhysRevE.97.030101'
+    - title: 'High Seebeck Coefficient and Unusually Low Thermal Conductivity Near Ambient Temperatures in Layered Compound Yb2-xEuxCdSb2'
+      authors: 'JA Cooley, P Promkhan, S Ganghopadhyay, D Donadio, WE Pickett, ...'
+      info: 'Chemistry of Materials'
+      link: 'http://dx.doi.org/10.1021/acs.chemmater.7b04517'
+  - year: 2017
+    publications:
+    - title: 'Selective Adsorption of a Supramolecular Structure on Flat and Stepped Gold Surfaces'
+      authors: 'R Peköz, D Donadio'
+      info: 'Surface Science'
+      link: 'https://www.sciencedirect.com/science/article/pii/S0039602817307884'
+    - title: 'Combined Experimental and Theoretical Investigation of Heating Rate on Growth of Iron Oxide Nanoparticles'
+      authors: 'H Sharifi Dehsari, M Heidari, A Halda Ribeiro, W Tremel, G Jakob, ...'
+      info: 'Chemistry of Materials 29 (22), 9648-9656'
+      link: 'http://pubs.acs.org/doi/abs/10.1021/acs.chemmater.7b02872'
+    - title: 'Bimodal grain-size scaling of thermal transport in polycrystalline graphene from large-scale molecular dynamics simulations'
+      authors: 'Z Fan, P Hirvonen, LFC Pereira, MM Ervasti, KR Elder, D Donadio, ...'
+      info: 'Nano letters 17 (10), 5919-5924'
+      link: 'http://pubs.acs.org/doi/abs/10.1021/acs.nanolett.7b01742'
+    - title: 'Dissociative Adsorption of Water at (211) Stepped Metallic Surfaces by First-Principles Simulations'
+      authors: 'R Peköz, D Donadio'
+      info: 'The Journal of Physical Chemistry C 121 (31), 16783-16791'
+      link: 'http://pubs.acs.org/doi/abs/10.1021/acs.jpcc.7b03226'
+    - title: 'Native surface oxide turns alloyed silicon membranes into nanophononic metamaterials with ultralow thermal conductivity'
+      authors: 'S Xiong, D Selli, S Neogi, D Donadio'
+      info: 'Physical Review B 95 (18), 180301'
+      link: 'https://link.aps.org/doi/10.1103/PhysRevB.95.180301'
+    - title: 'Thermal conductivity decomposition in two-dimensional materials: Application to graphene'
+      authors: 'Z Fan, LFC Pereira, P Hirvonen, MM Ervasti, KR Elder, D Donadio, ...'
+      info: 'Physical Review B 95 (14), 144309'
+      link: 'https://link.aps.org/doi/10.1103/PhysRevB.95.144309'
+    - title: 'A Strategy to Suppress Phonon Transport in Molecular Junctions Using π-Stacked Systems'
+      authors: 'Q Li, M Strange, I Duchemin, D Donadio, GC Solomon'
+      info: 'The Journal of Physical Chemistry C 121 (13), 7175-7182'
+      link: 'http://pubs.acs.org/doi/abs/10.1021/acs.jpcc.7b02005'
+    - title: 'Simulating Energy Relaxation in Pump–Probe Vibrational Spectroscopy of Hydrogen-Bonded Liquids'
+      authors: 'R Dettori, M Ceriotti, J Hunger, C Melis, L Colombo, D Donadio'
+      info: 'Journal of chemical theory and computation 13 (3), 1284-1292'
+      link: 'http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b01108'
+    - title: 'Experimental and theoretical evidence for bilayer-by-bilayer surface melting of crystalline ice'
+      authors: 'MA Sánchez, T Kling, T Ishiyama, MJ van Zadel, PJ Bisson, M Mezger, ...'
+      info: 'Proceedings of the National Academy of Sciences 114 (2), 227-232'
+      link: 'http://www.pnas.org/content/114/2/227'
