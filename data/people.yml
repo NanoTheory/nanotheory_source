@@ -18,11 +18,20 @@ list:
   - name:
       Dr. Shunda Chen
     link:
-      ""
+      "https://scholar.google.com/citations?user=0oqfZ50AAAAJ&hl=en"
     description:
       Postdoctoral Associate
     pic:
       images/shunda-chen.jpg
+
+  - name:
+      Dr. Riccardo Dettori
+    link:
+      "https://scholar.google.com/citations?user=4TB85csAAAAJ&hl=sv"
+    description:
+      Postdoctoral Associate
+    pic:
+      images/riccardo-dettori.jpg
 
   - name:
       Giuseppe Barbalinardo
@@ -36,7 +45,7 @@ list:
   - name:
       Charlie Sievers
     link:
-      "#"
+      "https://charlessievers.github.io"
     description:
       Graduate Student Researcher
     pic:
@@ -73,8 +82,6 @@ undergradlist:
   - name:
       Max Win
   - name:
-      Madison Cherpas
-  - name:
       Brendan Russ
   - name:
       Melanie Tieu
@@ -82,3 +89,5 @@ undergradlist:
       Aleyeh Roknaldin
   - name:
       Zekun Chen
+  - name:
+      Dylan Folkner
