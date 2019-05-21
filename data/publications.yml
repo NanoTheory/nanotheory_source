@@ -6,6 +6,14 @@ learn_more:
 list:
   - year: 2019
     publications:
+    - title: 'Modeling heat transport in crystals and glasses from a unified lattice-dynamical approach'
+      authors: 'L Isaeva, G Barbalinardo, D Donadio, S Baroni'
+      info: 'TBA'
+      link: 'https://arxiv.org/abs/1904.02255'
+    - title: 'Flexible and Ultrasoft Inorganic 1D Semiconductor and Heterostructure Systems Based on SnIP'
+      authors: 'C Ott F Reiter M Baumgartner, M Pielmeier, A Vogel, P Walke, S Burger, M Ehrenreich, G Kieslich, D Daisenberger, J Armstrong, U K Thakur, P Kumar, S Chen, D Donadio, L S Walter, R T Weitz, K Shankar, T Nilges'
+      info: 'Advanced Functional Materials'
+      link: 'https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.201900233'
     - title: 'Quasi-Ballistic Thermal Transport Across MoS2 Thin Films'
       authors: 'A Sood, F Xiong, S Chen, R Cheaito, F Lian, M Asheghi, Y Cui, D Donadio, K Goodson, E Pop'
       info: 'Nano letters'
