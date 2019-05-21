@@ -70,13 +70,14 @@ list:
       images/mickey.jpg
 
   - name:
-      Yuxuan Chen
+      Nathaniel Troup
     link:
       "#"
     description:
       Graduate Student Researcher
     pic:
-      images/yuxuan-chen.jpg
+      images/nate-troup.jpg
+
 
 undergradlist:
   - name:
@@ -85,8 +86,6 @@ undergradlist:
       Brendan Russ
   - name:
       Melanie Tieu
-  - name:
-      Aleyeh Roknaldin
   - name:
       Zekun Chen
   - name:

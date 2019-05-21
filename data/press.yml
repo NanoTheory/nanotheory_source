@@ -6,6 +6,10 @@ title2:
 
 news:
 
+  - title: 'Award for Excellence in Postdoctoral Research'
+    date: '04/2019'
+    link: 'https://twitter.com/UCDChem/status/1118995245188780032'
+
   - title: 'Conference on nanophononics sponsored by ICTP'
     date: '12/2018'
     link: 'http://indico.ictp.it/event/8693/material/poster/'
@@ -18,10 +22,6 @@ news:
     date: '06/2018'
     link: 'https://www.am-stc.com/?p=7127'
 
-  - title: 'Davide Donadio was named a 2017 UC Davis Hellman Fellow'
-    date: '07/2017'
-    link: 'http://www.hellmanfellows.org/fellows/davide-donadio'
-    
 list:
   - title:
       Thermal transport goes ballistic across 2D thin films
