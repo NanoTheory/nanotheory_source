@@ -83,7 +83,14 @@
 							<h2><%= data.press.title2 %></h2>
 						</header>
 						<ul class="alt">
-<a class="twitter-timeline" data-height="400" href="https://twitter.com/nanophononics?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							<% data.press.news.each do |f| %>
+								<li>
+									<b><%= f.title %></b>
+									<a href="<%= f.link %>"><%= f.link %></a>
+									-
+									<%= f.date %>
+								</li>
+							<% end %>
 						</ul>
 					</section>
 				</section>
