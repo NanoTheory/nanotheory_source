@@ -1,12 +1,12 @@
 title:
   Projects
 subtitle:
-  Our present research activities focus on non-equilibrium processes, which range from heterogeneous catalysis to thermal energy transport and conversion in complex systems. We combine traditional all-atom molecular dynamics, electronic structure theory, and rare events techniques, toward a comprehensive theoretical approach able to cover several time and length scales.
+  We perform molecular simulations of nonequilibrium processes, which range from pump-probe spectroscopy to thermal energy transport and conversion in complex systems. We combine traditional all-atom molecular dynamics, electronic structure theory, and rare events techniques, toward a comprehensive theoretical approach able to cover several time and length scales.
 list:
   - title:
       QUASI-1D AND 2D MATERIALS
     description:
-      "We investigate the mechanical, chemical and physical properties of quasi-one-dimensional and two-dimensional layered materials for applications in thermal management, thermoelectricity, energy storage, water splitting and spintronics."
+      "We are investigating the physicochemical properties of low-dimensional and van der Waals materials for applications in thermal management, thermoelectricity, energy storage, water splitting and spintronics."
     image:
       images/materials.png
     refs:
@@ -21,7 +21,7 @@ list:
   - title:
       THERMAL TRANSPORT
     description:
-      "We work on theoretical and algorithmic development to model thermal transport in complex systems. Molecular modeling provides essential insight into phonon transport at the nanoscale, which is essential to design novel nanophononic devices and nanomaterials with tailored thermal conductivity"
+      "We are developing new theory and algorithms to model thermal transport in complex systems. We address the details of phonon transport at the nanoscale to design novel nanophononic devices and nanomaterials with tailored thermal conductivity"
     image:
       images/thermal-transport.jpg
     refs:
@@ -34,7 +34,7 @@ list:
   - title:
       ATMOSPHERIC ICE
     description:
-      "Starting from a previously characterized ice model, we use a multiscale-multimodel approach to characterize the solvation shell of organic molecules at the air-ice interface. The absorption spectra of those molecules is then calculated using TDDFT on smaller models extracted from first-principles MD simulations"
+      "We are characterizing the surface of ice and its effects on chemical reactions, such as photodegradation of pollutants in clouds and snow packs, and the catalytic formation of ozone depletion sepcies in polar stratospheric clouds."
     image:
       images/ice.jpg
     refs:
@@ -47,7 +47,7 @@ list:
   - title:
       VIBRATIONAL SPECTROSCOPY
     description:
-      "We develop and apply numerical tools to simulate vibrational spectra of liquids, providing a compelling molecular interpretation of experiments"
+      "We are developing and deploying numerical tools to simulate pump-probe vibrational spectra of liquids, providing a compelling molecular interpretation of experiments"
     image:
       images/vibrational-chemistry.png
     refs:
@@ -58,7 +58,7 @@ list:
   - title:
       GEOCHEMISTRY
     description:
-      "First-principles molecular dynamics simulations based on density functional theory help provide molecular insight into the composition of geological fluids at deep Earth thermodynamic conditions, which impacts mineral growth and dissolution"
+      "First-principles molecular dynamics simulations based on density functional theory help provide molecular insight into the composition of geological fluids at deep Earth thermodynamic conditions, which impact mineral growth and dissolution"
     image:
       images/geochemistry.png
     refs:
@@ -69,11 +69,7 @@ list:
   - title:
       WATER IN NANO-POROUS MATERIAL
     description:
-      "Combining Density Functional Theory (DFT) calculations, First-Principle molecular dynamics
-(FPMD), classical molecular dynamics (MD), Grand-Canonical Monte Carlo (GCMC) simulations,
-First-Principles Nuclear Magnetic Resonance (NMR) Calculations, to understand water adsorption-
-desorption in nano-porous materials, aiming to design efficient, low-cost and environmentally friendly
-sustainable drying materials for agriculture and food preserving applications."
+      "We are studying water adsorption-desorption in nano-porous materials, aiming to design efficient, low-cost and environmentally friendly sustainable drying materials for agriculture and food preservation"
     image:
       images/zeolite.jpeg
     refs:
