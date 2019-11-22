@@ -5,6 +5,9 @@ subtitle:
 undergradtitle:
   "Undergraduate Researchers"
 
+alumni_title:
+  "Nanotheory Alumni"
+
 list:
   - name:
       Dr. Davide Donadio
@@ -31,7 +34,7 @@ list:
     description:
       Postdoctoral Associate
     pic:
-      images/riccardo-dettori.jpg
+      images/riccardo-dettori.png
 
   - name:
       Giuseppe Barbalinardo
@@ -61,13 +64,13 @@ list:
       images/fernanda.jpg
 
   - name:
-      Miqdad Raza
+      Zekun Chen
     link:
       "#"
     description:
-      Graduate Student Researcher
+      Graduate Student Research
     pic:
-      images/mickey.jpg
+      images/zekun-chen.jpg
 
   - name:
       Nathaniel Troup
@@ -83,10 +86,23 @@ undergradlist:
   - name:
       Max Win
   - name:
-      Brendan Russ
-  - name:
       Melanie Tieu
   - name:
-      Zekun Chen
-  - name:
       Dylan Folkner
+  - name:
+      Yifan She
+  - name:
+      Nicholas Lundgren
+  - name:
+      Guangze Yu
+
+alumni:
+  - name:
+      Miqdad Raza
+    link:
+      "#"
+    description:
+      Masters in Materials Engineering
+    pic:
+      images/mickey.jpg
+
