@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+
+
+<html>
+        <head>
+                <title>Nanotheory Alumni</title>
+                <%= favicon_tag 'images/favicon.png' %>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+                <link rel="stylesheet" href="assets/css/main.css" />
+                <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+                <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        </head>
+        <body>
+
+
+				<!-- Header -->
+				<header id="header">
+					<a href="#menu">Menu</a>
+				</header>
+
+				<!-- Nav -->
+				<nav id="menu">
+					<ul class="links">
+						<li>
+							<a href="../#research">Research</a>
+						</li>
+						<li>
+							<a href="../#people">People</a>
+						</li>
+						<li>
+							<a href="../#publications">Publications</a>
+						</li>
+						<li>
+							<a href="../#contact">Contact us</a>
+						</li>
+						<li>
+							<a href="./alumni.html">Alumni</a>
+						</li>
+					</ul>
+				</nav>
+
+
+		<!-- Main -->
+                	<section id="people" class="wrapper style3 special">
+                	        <div class="inner">
+                	                <header class="major">
+                	                        <h2><%= data.people.alumni_title %></h2>
+                	                </header>
+                	                <section class="spotlights">
+                	                        <% data.people.alumni.each do |f| %>
+
+                	                                <section>
+                	                                        <% link_to f.link do %>
+
+                	                                                <span class="image">
+                	                                                        <img style="width:12em; border-radius: 50%;" src="<%= f.pic %>" alt=""/>
+                	                                                </span>
+                	                                                <h4><%= f.name %></h4>
+                	                                                <p><%= f.description %></p>
+                	                                        <% end %>
+
+                	                                </section>
+
+                	                        <% end %>
+
+                	                </section>
+                	        </div>
+                	</section>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -24,6 +24,15 @@ news:
 
 list:
   - title:
+      Heat transport theory goes universal
+    info:
+      Physics World
+    date:
+      09/2019
+    link:
+      "https://physicsworld.com/a/heat-transport-theory-goes-universal/"
+
+  - title:
       Thermal transport goes ballistic across 2D thin films
     info:
       Physics World 
@@ -58,15 +67,6 @@ list:
       01/2016
     link:
       "http://www.epj.org/epjb-news/1027-epjb-colloquium-nanophononics-state-of-the-art-and-perspectives?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+edp_epjnews+%28EPJ+News%29"
-
-  - title:
-      Thermal transport in ultra-thin silicon membranes
-    info:
-      Phys.org
-    date:
-      05/2015
-    link:
-      "http://phys.org/wire-news/191183401/surface-matters-huge-reduction-of-heat-conduction-observed-in-fl.html"
 
   #
   # - title:

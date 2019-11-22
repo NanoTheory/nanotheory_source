@@ -4,44 +4,44 @@ subtitle:
   Our present research activities focus on non-equilibrium processes, which range from heterogeneous catalysis to thermal energy transport and conversion in complex systems. We combine traditional all-atom molecular dynamics, electronic structure theory, and rare events techniques, toward a comprehensive theoretical approach able to cover several time and length scales.
 list:
   - title:
-      SURFACE CHEMISTRY
+      QUASI-1D AND 2D MATERIALS
     description:
-      "We study chemical reactions at surfaces with first principles static and molecular dynamics methods based on density functional theory."
+      "We investigate the mechanical, chemical and physical properties of quasi-one-dimensional and two-dimensional layered materials for applications in thermal management, thermoelectricity, energy storage, water splitting and spintronics."
     image:
-      images/surface-chemistry.png
+      images/materials.png
     refs:
-      - title: "Trends in the Adsorption and Dissociation of Water Clusters on Flat and Stepped Metallic Surfaces"
-        link: "http://pubs.acs.org/doi/abs/10.1021/jp510242h"
+      - title: "Flexible and Ultrasoft Inorganic 1D Semiconductor and Heterostructure Systems Based on SnIP"
+        link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201900233"
+      - title: "An electrochemical thermal transistor"
+        link: "https://www.nature.com/articles/s41467-018-06760-7" 
+      - title: "Mn-Intercalated MoSe2 under pressure: electronic structure and vibrational characterization of a dilute magnetic semiconductor"
+        link: "https://arxiv.org/abs/1906.09923" 
+ 
 
-      - title: "Tuning the Adsorption of Aromatic Molecules on Platinum via Halogenation"
-        link: "http://pubs.acs.org/doi/abs/10.1021/jp411422xSpectroscopy: Simulating Energy Relaxation in Pump–Probe Vibrational Spectroscopy of Hydrogen-Bonded Liquids"
+  - title:
+      THERMAL TRANSPORT
+    description:
+      "We work on theoretical and algorithmic development to model thermal transport in complex systems. Molecular modeling provides essential insight into phonon transport at the nanoscale, which is essential to design novel nanophononic devices and nanomaterials with tailored thermal conductivity"
+    image:
+      images/thermal-transport.jpg
+    refs:
+      - title: "Modeling heat transport in crystals and glasses from a unified lattice-dynamical approach"
+        link: "https://www.nature.com/articles/s41467-019-11572-4"
+      - title: "Quasi-Ballistic Thermal Transport Across MoS2 Thin Films"
+        link: "https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.8b05174"
 
 
   - title:
       ATMOSPHERIC ICE
     description:
-      "Our simulations unravel the molecular structure of ice surfaces and the rates and underlying mechanism of ice nucleation at different conditions"
+      "Starting from a previously characterized ice model, we use a multiscale-multimodel approach to characterize the solvation shell of organic molecules at the air-ice interface. The absorption spectra of those molecules is then calculated using TDDFT on smaller models extracted from first-principles MD simulations"
     image:
-      images/ice.png
+      images/ice.jpg
     refs:
       - title: "Experimental and theoretical evidence for bilayer-by-bilayer surface melting of crystalline ice"
         link: "http://www.pnas.org/lookup/doi/10.1073/pnas.1612893114"
-      - title: "Microscopic Mechanism and Kinetics of Ice Formation at Complex Interfaces: Zooming in on Kaolinite"
-        link: "http://pubs.acs.org/doi/abs/10.1021/acs.jpclett.6b01013"
-
-
-
-  - title:
-      THERMAL TRANSPORT
-    description:
-      "Molecular modeling provides an essential insight into phonon transport at the nanoscale which turns out essential to design novel nanophononic devices and nanomaterials with tailored thermal conductivity. "
-    image:
-      images/thermal-transport.png
-    refs:
-      - title: "Nanophononics: state of the art and perspectives"
-        link: "http://link.springer.com/10.1140/epjb/e2015-60727-7"
-      - title: "Tuning Thermal Transport in Ultrathin Silicon Membranes by Surface Nanoscale Engineering"
-        link: "http://pubs.acs.org/doi/abs/10.1021/nn506792d"
+      - title: "Structure and Dynamics of the Quasi-Liquid Layer at the Surface of Ice from Molecular Simulations"
+        link: "https://pubs.acs.org/doi/10.1021/acs.jpcc.8b07724" 
 
 
   - title:
@@ -49,20 +49,33 @@ list:
     description:
       "We develop and apply numerical tools to simulate vibrational spectra of liquids, providing a compelling molecular interpretation of experiments"
     image:
-      images/surface.png
+      images/vibrational-chemistry.png
     refs:
-      - title: "Spectroscopy: Simulating Energy Relaxation in Pump–Probe Vibrational Spectroscopy of Hydrogen-Bonded Liquids"
-        link: "http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b01108"
+      - title: "Energy Relaxation and Thermal Diffusion in Infrared Pump–Probe Spectroscopy of Hydrogen-Bonded Liquids"
+        link: "https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.9b01272"
 
 
   - title:
-      MACHINE LEARNING
+      GEOCHEMISTRY
     description:
-      "Through a mindful combination of state-of-the-art machine learning techniques and atomistic modeling, numerical simulations provide guidance to materials design."
+      "First-principles molecular dynamics simulations based on density functional theory help provide molecular insight into the composition of geological fluids at deep Earth thermodynamic conditions, which impacts mineral growth and dissolution"
     image:
-      images/machine-learning.png
+      images/geochemistry.png
     refs:
-      - title: "Atomistic calculation of the thermal conductance of large scale bulk-nanowire junctions"
-        link: "http://link.aps.org/doi/10.1103/PhysRevB.84.115423"
-      - title: "Nuclear Quantum Effects in Water: A Multiscale Study"
-        link: "http://pubs.acs.org/doi/abs/10.1021/ct4010504"
+      - title: ""
+        link: "#"
+
+
+  - title:
+      WATER IN NANO-POROUS MATERIAL
+    description:
+      "Combining Density Functional Theory (DFT) calculations, First-Principle molecular dynamics
+(FPMD), classical molecular dynamics (MD), Grand-Canonical Monte Carlo (GCMC) simulations,
+First-Principles Nuclear Magnetic Resonance (NMR) Calculations, to understand water adsorption-
+desorption in nano-porous materials, aiming to design efficient, low-cost and environmentally friendly
+sustainable drying materials for agriculture and food preserving applications."
+    image:
+      images/zeolite.jpeg
+    refs:
+      - title: ""
+        link: ""
