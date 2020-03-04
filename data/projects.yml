@@ -62,8 +62,8 @@ list:
     image:
       images/geochemistry.png
     refs:
-      - title: ""
-        link: "#"
+      - title: "Carbon dioxide, bicarbonate and carbonate ions in aqueous solutions under deep Earth conditions"
+        link: "https://pubs.rsc.org/en/content/articlelanding/2020/CP/C9CP06904F#!divAbstract"
 
 
   - title:
