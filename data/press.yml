@@ -24,6 +24,15 @@ news:
 
 list:
   - title:
+      Using Machine Learning to Predict Properties of Complex Materials
+    info:
+      Egghead - About research at UC Davis
+    date:
+      07/2020
+    link:
+      "https://egghead.ucdavis.edu/2020/07/03/using-machine-learning-to-predict-properties-of-complex-materials/"
+
+  - title:
       Heat transport theory goes universal
     info:
       Physics World
@@ -58,15 +67,6 @@ list:
       12/2016
     link:
       "http://www.scienceandtechnologyresearchnews.com/ice-surface-melts-one-step-time/"
-
-  - title:
-      A comprehensive review on nanophononics
-    info:
-      The European Physical Journal
-    date:
-      01/2016
-    link:
-      "http://www.epj.org/epjb-news/1027-epjb-colloquium-nanophononics-state-of-the-art-and-perspectives?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+edp_epjnews+%28EPJ+News%29"
 
   #
   # - title:
