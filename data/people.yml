@@ -19,15 +19,6 @@ list:
       images/davide-donadio.jpg
 
   - name:
-      Dr. Shunda Chen
-    link:
-      "https://scholar.google.com/citations?user=0oqfZ50AAAAJ&hl=en"
-    description:
-      Postdoctoral Associate
-    pic:
-      images/shunda-chen.jpg
-
-  - name:
       Dr. Riccardo Dettori
     link:
       "https://scholar.google.com/citations?user=4TB85csAAAAJ&hl=sv"
@@ -37,15 +28,6 @@ list:
       images/riccardo-dettori.png
 
   - name:
-      Giuseppe Barbalinardo
-    link:
-      "http://giuseppe.barbalinardo.com"
-    description:
-      Graduate Student Researcher
-    pic:
-      images/giuseppe-barbalinardo.jpg
-
-  - name:
       Charlie Sievers
     link:
       "https://charlessievers.github.io"
@@ -53,15 +35,6 @@ list:
       Graduate Student Researcher
     pic:
       images/charlie-sievers.jpg
-
-  - name:
-      Fernanda Bononi
-    link:
-      "#"
-    description:
-      Graduate Student Researcher
-    pic:
-      images/fernanda.jpg
 
   - name:
       Zekun Chen
@@ -81,22 +54,61 @@ list:
     pic:
       images/nate-troup.jpg
 
+  - name:
+      Nicholas Lundgren
+    link:
+      "#"
+    description:
+      Graduate Student Researcher
+    pic:
+      images/nicholas-lundgren.png
+
+  - name:
+      Maggie Berrens
+    link:
+      "#"
+    description:
+      Graduate Student Researcher
+    pic:
+      "#"
+
 
 undergradlist:
-  - name:
-      Max Win
-  - name:
-      Melanie Tieu
   - name:
       Dylan Folkner
   - name:
       Yifan She
   - name:
-      Nicholas Lundgren
-  - name:
       Guangze Yu
 
 alumni:
+  - name:
+      Dr. Shunda Chen
+    link:
+      "https://scholar.google.com/citations?user=0oqfZ50AAAAJ&hl=en"
+    description:
+      Postdoctoral Associate
+    pic:
+      images/shunda-chen.jpg
+
+  - name:
+      Giuseppe Barbalinardo
+    link:
+      "http://giuseppe.barbalinardo.com"
+    description:
+      PhD in Chemistry
+    pic:
+      images/giuseppe-barbalinardo.jpg
+
+  - name:
+      Fernanda Bononi
+    link:
+      "#"
+    description:
+      PhD in Chemistry
+    pic:
+      images/fernanda.jpg
+
   - name:
       Miqdad Raza
     link:
